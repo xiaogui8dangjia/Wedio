@@ -1,0 +1,15 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource prefix="/">
+    <!-- 应用程序图标 -->
+    <file>icons/app_icon.ico</file>
+    <file>icons/app_icon.png</file>
+    
+    <!-- 着色器文件 -->
+    <file>shaders/basic.vert</file>
+    <file>shaders/basic.frag</file>
+    
+    <!-- 样式表 -->
+    <file>style.css</file>
+</qresource>
+</RCC>

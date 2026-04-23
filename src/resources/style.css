@@ -1,0 +1,212 @@
+/* 3D建模软件样式表 */
+
+/* 主窗口样式 */
+QMainWindow {
+    background-color: #f0f0f0;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 菜单栏样式 */
+QMenuBar {
+    background-color: #e0e0e0;
+    color: #000000;
+    border-bottom: 1px solid #cccccc;
+    padding: 0px;
+    margin: 0px;
+    spacing: 0px;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 3px 10px;
+    margin: 0px;
+    spacing: 0px;
+}
+
+QMenuBar::item:selected {
+    background-color: #cccccc;
+}
+
+QMenuBar::item:pressed {
+    background-color: #bbbbbb;
+}
+
+/* 菜单样式 */
+QMenu {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+}
+
+QMenu::item {
+    background-color: transparent;
+    padding: 5px 10px 5px 10px;
+}
+
+QMenu::item:selected {
+    background-color: #e6f2ff;
+}
+
+QMenu::item:disabled {
+    color: #999999;
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: #cccccc;
+    margin: 5px 10px;
+}
+
+/* 工具栏样式 */
+QToolBar {
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #cccccc;
+    spacing: 3px;
+    padding: 2px;
+}
+
+QToolButton {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+/* 指令栏样式 */
+#commandBar {
+    background-color: #e0e0e0;
+    border-bottom: 1px solid #cccccc;
+    padding: 5px;
+}
+
+#commandOutput {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    padding: 5px;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 12px;
+    color: #333333;
+}
+
+#commandInput {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 2px;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 12px;
+    color: #000000;
+}
+
+#toggleButton {
+    background-color: #e0e0e0;
+    border: 1px solid #cccccc;
+    border-left: none;
+    padding: 0px;
+    font-size: 10px;
+    color: #333333;
+}
+
+QToolButton:hover {
+    background-color: #cccccc;
+    border: 1px solid #bbbbbb;
+}
+
+QToolButton:pressed {
+    background-color: #bbbbbb;
+}
+
+QToolButton:checked {
+    background-color: #e6f2ff;
+    border: 1px solid #99ccff;
+}
+
+/* 状态栏样式 */
+QStatusBar {
+    background-color: #e0e0e0;
+    color: #000000;
+    border-top: 1px solid #cccccc;
+}
+
+QStatusBar::item {
+    border: none;
+}
+
+/* 3D绘图区样式 */
+ThreeDCanvas {
+    background-color: #ffffff;
+    border: none;
+}
+
+/* 对话框按钮样式 */
+QPushButton {
+    background-color: #f0f0f0;
+    color: #000000;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+QPushButton:hover {
+    background-color: #e0e0e0;
+    border: 1px solid #bbbbbb;
+}
+
+QPushButton:pressed {
+    background-color: #d0d0d0;
+}
+
+QPushButton:disabled {
+    background-color: #f5f5f5;
+    color: #999999;
+    border: 1px solid #e0e0e0;
+}
+
+/* 标签样式 */
+QLabel {
+    color: #000000;
+}
+
+/* 复选框样式 - 使用原生样式以显示勾选符号 */
+
+/* 滚动条样式 */
+QScrollBar:vertical {
+    background-color: #f0f0f0;
+    width: 12px;
+    border: none;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #cccccc;
+    border-radius: 6px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #bbbbbb;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar:horizontal {
+    background-color: #f0f0f0;
+    height: 12px;
+    border: none;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #cccccc;
+    border-radius: 6px;
+    min-width: 20px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: #bbbbbb;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+}
